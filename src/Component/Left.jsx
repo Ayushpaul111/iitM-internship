@@ -27,18 +27,12 @@ export const Left = () => {
             </span>
             <span>
               <BsThreeDots className="text-white ml-4" />
-              {/* <MobileStepper
-                variant="dots"
-                steps={6}
-                position="static"
-                activeStep={0}
-                sx={{ maxWidth: 400, flexGrow: 1 }}
-              /> */}
+              
             </span>
             <span className="flex justify-center items-center">
               <span className="text-white text-sm mr-4">°C</span>
               <Switch {...label} />
-              {/* <BsToggle2Off className="text-white" /> */}
+              
               <span className="text-white text-sm ml-2">°F</span>
             </span>
           </div>
