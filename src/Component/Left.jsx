@@ -7,7 +7,6 @@ import {
   BsSunset,
   BsChevronLeft,
   BsChevronRight,
-  BsFillSunFill,
   BsSun,
 } from "react-icons/bs";
 import image from "../assets/image.png";
