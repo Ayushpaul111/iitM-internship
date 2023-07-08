@@ -18,7 +18,7 @@ export const Right = () => {
     <>
       <div className="w-[70vw] rounded-3xl z-10 -ml-24 p-7 bg-[#E4F1FF] h-full">
         <div className="content flex flex-col gap-10 justify-between items-start w-full h-full ">
-          {/* //Below is the header of the content  */}
+          
           <div className="header w-full flex flex-row justify-between items-center">
             <div className="headerText flex flex-col justify-start items-start">
               <p className="text-black font-bold text-[16px]">
@@ -42,7 +42,6 @@ export const Right = () => {
             </div>
           </div>
 
-          {/* //Below is the middle Section  */}
           <div className="middleSection flex flex-col justify-between items-center bg-white w-full h-[300px] rounded-3xl p-5 hover:shadow-md transition duration-200">
             <div className="header w-full flex flex-row justify-between items-center">
               <p className="text-black text-[18px] font-semibold">
@@ -142,7 +141,6 @@ export const Right = () => {
             </div>
           </div>
 
-          {/* //Below is the footer section  */}
           <div className="footer h-full w-full flex flex-col justify-between items-start">
             <div>
               <h4 className="text-[15px] text-black font-semibold">
@@ -150,7 +148,7 @@ export const Right = () => {
               </h4>
             </div>
             <div className="row1 w-full flex flex-row justify-between items-center">
-              {/* 1st SingleBox 1st row  -------------------- */}
+             
               <div className="singleBox gap-1 p-4 w-[250px] h-[130px] border rounded-3xl bg-white flex flex-col justify-start items-center hover:shadow-md transition duration-200">
                 <div className="flex w-full flex-row justify-between items-center">
                   <p className="text-black text-sm font-semibold">Humidity</p>
@@ -184,7 +182,7 @@ export const Right = () => {
                   </div>
                 </div>
               </div>
-              {/* 2nd singleBox 1st row ----------------------- */}
+              
               <div className="singleBox gap-1 p-4 w-[250px] h-[130px] border rounded-3xl bg-white flex flex-col justify-start items-center hover:shadow-md transition duration-200">
                 <div className="flex w-full flex-row justify-between items-center">
                   <p className="text-black text-sm font-semibold">Wind</p>
@@ -211,7 +209,7 @@ export const Right = () => {
                   </div>
                 </div>
               </div>
-              {/* 3rd SingleBox 1st row ---------------- */}
+              
               <div className="singleBox gap-1 p-4 w-[250px] h-[130px] border rounded-3xl bg-white flex flex-col justify-start items-center hover:shadow-md transition duration-200">
                 <div className="flex w-full flex-row justify-between items-center">
                   <p className="text-black text-sm font-semibold">
@@ -291,9 +289,9 @@ export const Right = () => {
               </div>
             </div>
 
-            {/* ----------second row below */}
+            
             <div className="row2 mt-3 w-full flex flex-row justify-between items-center">
-              {/* 1st singleBox 2nd row -------------------- */}
+              
               <div className="singleBox gap-1 p-4 w-[250px] h-[130px] border rounded-3xl bg-white flex flex-col justify-start items-center hover:shadow-md transition duration-200">
                 <div className="flex w-full flex-row justify-between items-center">
                   <p className="text-black text-sm font-semibold">UV index</p>
@@ -338,7 +336,7 @@ export const Right = () => {
                   </div>
                 </div>
               </div>
-              {/* 2nd singlebox 2nd row ----------------------- */}
+              
               <div className="singleBox gap-1 p-4 w-[250px] h-[130px] border rounded-3xl bg-white flex flex-col justify-start items-center hover:shadow-md transition duration-200">
                 <div className="flex w-full flex-row justify-between items-center">
                   <p className="text-black text-sm font-semibold">Feels Like</p>
@@ -360,7 +358,7 @@ export const Right = () => {
                   </div>
                 </div>
               </div>
-              {/* 3rd singlebox 2nd row ---------------- */}
+              
               <div className="singleBox gap-1 p-4 w-[250px] h-[130px] border rounded-3xl bg-white flex flex-col justify-start items-center hover:shadow-md transition duration-200">
                 <div className="flex w-full flex-row justify-between items-center">
                   <p className="text-black text-sm font-semibold">
